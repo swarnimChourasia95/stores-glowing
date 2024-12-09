@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+  font-family: "Raleway", sans-serif;
+  */
+  *
+{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.clr{clear: both;}
+.maincontainer{max-width: 100%; margin: 0; padding: 0;}
+.wrap{max-width: 1024px; margin: 0 auto; padding: 0;}
+.main_head{padding: 20px 0;}
+/* .main_head nav{text-align: center;} */
+.main_head ul{display: block; padding: 0; margin: 0;}
+.main_head ul li{display: inline-block; vertical-align: top; margin: 0 18px; text-transform: capitalize;}
+.main_head ul li a{font-weight: 600; font-family: "Raleway", sans-serif; text-align: center; font-size: 18px; line-height: 26px; color: brown; text-decoration: none; }
+.main_head ul li a:hover{border-bottom: 2px solid #c8c8c8;}
+
+.main_banner{background: url(../img/banner.jpg) center center; background-size: cover; min-height: 500px;}
+/* .banner_inner{} */
+.banner_H {padding: 30px 0;}
+.banner_H h3{font-weight: 600; font-family: "Raleway", sans-serif; text-transform: capitalize; font-size: 48px; line-height: 58px; color:#fff;}
+.banner_H p{font-weight: 600; font-family: "Raleway", sans-serif; text-transform: capitalize;  font-size: 24px; line-height: 28px; color:#fff;}
+.button_main{display: block; cursor: pointer; padding: 20px 0;  background-color:#4c180d; border-radius: 5px; text-align: center;   width: 200px;}
+.button_main a{ text-transform: capitalize;  font-weight: 600; color: #fff; font-family: "Raleway", sans-serif; text-align: center; font-size: 18px; line-height: 26px; text-decoration: none;}
+
+.our_products{padding: 30px 0 0 0;}
+.our_product_head{color: #4c180d; text-align: center; text-transform: capitalize; font-size: 30px; font-family: "Raleway", sans-serif;}
+
+.product_details{padding: 50px 0;}
+.product_det_1{float: left; width: 50%;}
+.product_det_1 img{width: 90%; margin: 0 auto;}
+.product_det_2{float: right; width: 50%;}
+.product_det_2 h4{font-size: 18px; line-height: 26px; color: #4c180d; text-transform: uppercase;}
+.product_det_2 p{font-size: 16px; line-height: 26px; color: #4c180d; text-transform: capitalize;}
+
+.product_det_3{float: right; width: 50%;}
+.product_det_3 img{width: 90%; margin: 0 auto;}
+.product_det_4{float: left; width: 50%;}
+.product_det_4 h4{font-size: 18px; line-height: 26px; color: #4c180d; text-transform: uppercase;}
+.product_det_4 p{font-size: 16px; line-height: 26px; color: #4c180d; text-transform: capitalize;}
+
+.happy_cus{background: url(../img/inquiry.jpg)center center; background-size: cover; min-height: 300px; background-attachment: fixed;}
+.suggest_me{padding: 50px 0 0 0;}
+
+.investors{padding: 40px 0;}
+.investors ul{display: block; padding: 0; margin: 0;}
+.investors ul li{display:inline-block; vertical-align: top; margin: 0 15px;}
+.investors ul li img{height: 200px;  width: auto; border-radius: 60%;} 
